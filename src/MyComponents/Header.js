@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types'
-import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap'
-import { propTypes } from "react-bootstrap/esm/Image";
+import {Navbar, Container, Nav} from 'react-bootstrap'
 export const Header = (props) => {
   return(
     <Navbar bg="dark" variant="dark">

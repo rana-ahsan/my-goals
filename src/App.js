@@ -5,7 +5,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 import { Header } from './MyComponents/Header'
 import { Footer } from './MyComponents/Footer';
@@ -16,7 +15,7 @@ import { About } from './MyComponents/About';
 function App() {
 
   let initGoals;
-  if (localStorage.getItem("goals") === null || (!!localStorage.getItem("goals") && JSON.parse(localStorage.getItem("goals")).length == 0 )) {
+  if (localStorage.getItem("goals") === null || (!!localStorage.getItem("goals") && JSON.parse(localStorage.getItem("goals")).length === 0 )) {
     initGoals = [
       {
         id: 1,
