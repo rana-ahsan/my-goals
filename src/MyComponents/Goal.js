@@ -89,7 +89,7 @@ export const Goal = ({goal, onDelete, onAddGoalClick, myGoalIds, myGoal, removeF
           myGoalIds.includes(goal.id) ?
             <Button style={{float: 'right'}} variant="success" onClick={(e) => {showAlreadyAddedMsg()}}>Added <FaCheckCircle style={{marginLeft: "5px"}}/></Button>
           :
-            <Button style={{float: 'right'}} variant="primary" onClick={(e) => {onAddGoalClick(goal.id)}}>Add to My Goals <FaPlus style={{marginLeft: "5px"}}/></Button>
+            <Button style={{float: 'right'}} variant="secondary" onClick={(e) => {onAddGoalClick(goal.id)}}>Add to My Goals <FaPlus style={{marginLeft: "5px"}}/></Button>
           : 
             null
         }
